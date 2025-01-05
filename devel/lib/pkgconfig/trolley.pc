@@ -1,0 +1,8 @@
+prefix=/home/ros/project/devel
+
+Name: trolley
+Description: Description of trolley
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

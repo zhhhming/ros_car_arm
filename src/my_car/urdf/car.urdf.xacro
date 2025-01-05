@@ -1,0 +1,11 @@
+<robot name="my_car" xmlns:xacro="http://wiki.ros.org/xacro">
+    <xacro:include filename="inertial.xacro" />
+    <xacro:include filename="materials.xacro" />
+    <xacro:include filename="my_base.urdf.xacro" />
+    <xacro:include filename="my_camera.urdf.xacro" />
+    <xacro:include filename="my_laser.urdf.xacro" />
+    <xacro:include filename="move.urdf.xacro" />
+    <xacro:include filename="camera_gazebo.urdf.xacro" />
+    <xacro:include filename="laser_gazebo.urdf.xacro" />
+    
+</robot>

@@ -1,0 +1,8 @@
+prefix=/home/ros/project/devel
+
+Name: car_arm
+Description: Description of car_arm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

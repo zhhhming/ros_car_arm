@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find my_car_navigation)/launch/amcl_diff.launch" />
+    <include file="$(find my_car_navigation)/launch/mapserver.launch" />
+
+    <!-- 运行move_base节点 -->
+    <include file="$(find my_car_navigation)/launch/setting.launch" />
+    <!-- 运行rviz -->
+    <!-- <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" /> -->
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_car_navigation)/config/move.rviz" /> -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_car_navigation)/config/plan_show.rviz" />
+
+</launch>

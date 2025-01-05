@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_car_navigation)/config/amcl.rviz"/>
+    <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
+    <!-- <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" /> -->
+    <include file="$(find car_arm)/move_launch/mapserver.launch" />
+    <include file="$(find car_arm)/move_launch/amcl_diff.launch" />
+</launch>

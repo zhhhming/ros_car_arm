@@ -1,0 +1,2 @@
+car_arm:car_arm_config:gazebo-pkgs/gazebo_grasp_plugin:gazebo-pkgs/gazebo_grasp_plugin_ros:gazebo-pkgs/gazebo_state_plugins:gazebo-pkgs/gazebo_test_tools:gazebo-pkgs/gazebo_version_helpers:gazebo-pkgs/gazebo_world_plugin_loader:gazebo_ros_link_attacher:general-message-pkgs/object_msgs:general-message-pkgs/object_msgs_tools:general-message-pkgs/path_navigation_msgs:get_info:my_car:my_car_navigation
+-DCATKIN_DEVEL_PREFIX=/home/ros/project/devel -DCMAKE_INSTALL_PREFIX=/home/ros/project/install -G Unix Makefiles
